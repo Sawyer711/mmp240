@@ -4,6 +4,32 @@
 } 
 
 header{
-    
-    background: url("images/TOH_Banner.jpeg") right top no-repeat;
+    background:
+    linear-gradient(90deg, rgba(0,0,0,1) 0, rgba(0,0,0,1) 700px, rgba(255,255,255,0) 800px),
+    url("images/TOH_Banner.jpeg") right top no-repeat;
 }
+
+nav{
+    background-color: #D9D9D9;
+    padding: 10px;
+}
+
+nav li{
+    display: inline;
+    border-right: solid 1px black;
+    padding: 0 1.5em
+}
+
+nav li:last-child{
+    border: none
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: darkolivegreen;
+    text-decoration: underline;
+}  
