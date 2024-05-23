@@ -36,6 +36,17 @@ h1, h2, h3, h4{
     margin-bottom: 1em;
 }
 
+.hero-banner{
+    min-height: 12em;
+    background-color: skyblue;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.event-item img{
+    width: 100%;
+}
+
 @media (min-width: 768px){
 
     .show-menu{
@@ -48,5 +59,10 @@ h1, h2, h3, h4{
     .menu li{
         display: inline;
         margin-right: 2em;
+    }
+    .layout{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap: 1em;
     }
 } /*closing media query*/
