@@ -5,6 +5,11 @@
     padding: 1em;
 }
 
+p, h1, h2, h3, h4{
+    margin-bottom: 1em;
+}
+
+
 .site-header{
     display: flex;
     justify-content: space-between;
